@@ -1,0 +1,69 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+label, input {
+  display: block;
+}
+input, select {
+  margin-bottom:16px;
+}
+.info-row, .info-container{
+  display:flex;
+}
+.info-row{
+  flex: 1;
+}
+.label {
+  font-weight:bold;
+  margin-right:8px;
+}
+.info-container{
+  gap: 16px;
+}
+.name-row{
+  font-size: 20px;
+}
+.card p{
+  margin:6px;
+}
+.card{
+  border: 1px solid #999;
+  border-radius: 8px;
+  max-width: 400px;
+  padding: 16px;
+}
+.title {
+  display:flex;
+  justify-content:center;
+}
+.address-text p{
+  padding:0;
+  margin:0;
+}
+.address-text p:first-child {
+  margin-top: 6px;
+}
+.address-text p:last-child {
+  margin-bottom: 6px;
+}
+.card.premium{
+  border: 3px solid #dd77aa;
+  bsckground-color: #F4F4F4;
+  color: aquamarine;
+}
+.card.standard{
+  border: 1px solid #999999;
+  bsckground-color:  #F4F4F4;
+  color: deepskyblue;
+}
+.card.bronze{
+  border 3px solid #714740;
+  bsckground-color: #F4F4F4;
+  color: lightgreen;
+}
+
+.label {
+  color: bisque;
+}
+
